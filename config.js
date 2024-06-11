@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["967772822646", 'لوسيفار', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["967772822646", 'كباس', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ["967772822646"], 
 ["967772822646"], 
 ["967772822646"],
@@ -55,8 +55,8 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // [EN] > I added one of the languages available for the Bot in "mid".
 
 // ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
-// Español 👉 es           
-// English 👉 en
+// Español 👉 ar           
+// English 👉 ar
 global.lenguajeGB = ar
 global.mid = esDefault
 global.version_language = '1.0 (MID-GB)'
@@ -125,7 +125,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["967772822646", 'بوت لوسيفار 💻', 1], 
+["967772822646", 'بوت كباس 💻', 1], 
 ["967772822646", '𝐁𝐎𝐓 𝗟𝐎𝐒𝐄𝐅𝐀𝐑 💻', 1],  
 ["967772822646", '𝐁𝐎𝐓 𝗟𝐎𝐒𝐄𝐅𝐀𝐑 💻', 1]]
 
@@ -142,7 +142,7 @@ global.author = ` ╭ 𝐁𝐎𝐓 𝗟𝐎𝐒𝐄𝐅𝐀𝐑 ✓\n ┃\n ┃ 
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
-global.vs = "لوسيفَار"
+global.vs = "كباس"
 global.vsJB = "2.5 (Beta)"
 global.gt = "𝐁𝐎𝐓 𝗟𝐎𝐒𝐄𝐅𝐀𝐑"
 
