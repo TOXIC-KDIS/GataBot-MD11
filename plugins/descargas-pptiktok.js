@@ -12,9 +12,9 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)
 handler.limit = false
 }}
-handler.help = ['tiktokfoto'].map(v => v + ' <username>')
+handler.help = ['تيكتوك'].map(v => v + ' <username>')
 handler.tags = ['downloader']
-handler.command = /^(tiktokfoto|tiktokphoto)$/i
+handler.command = /^(تيكتوتك|tiktokphoto)$/i
 handler.limit = 1
 handler.register = true
 export default handler
