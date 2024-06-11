@@ -18,8 +18,8 @@ await delay(3000)
 }
 throw `${lenguajeGB['smsAvisoEG']()}`
 }
-handler.help = ['stikertele *<url>*']
-handler.tags = ['sticker', 'downloader']
+handler.help = ['ملصق *<url>*']
+handler.tags = ['ملصق', 'downloader']
 handler.command = /^(stic?kertele(gram)?)$/i
 handler.cookie = 1
 handler.limit = 1
