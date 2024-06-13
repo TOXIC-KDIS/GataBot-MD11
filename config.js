@@ -6,8 +6,8 @@ import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
-import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.js"
-import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
+import { ar as esDefault, en as enDefault } from "./lib/multi-language/_default.js"
+import { en, ar, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
@@ -57,9 +57,9 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // [EN] > I added one of the languages available for the Bot in "mid".
 
 // ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
-// Español 👉 es           
-// English 👉 en
-global.lenguajeGB = es
+// Español 👉 ar         
+// English 👉 ar
+global.lenguajeGB = ar
 global.mid = esDefault
 global.version_language = '1.0 (MID-GB)'
 
