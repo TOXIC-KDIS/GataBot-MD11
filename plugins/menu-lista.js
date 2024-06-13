@@ -1,13 +1,13 @@
 // Botones interactivos adptados y funcionando por Gata Dios (GataNina-Li)
 
 import { getDevice } from '@whiskeysockets/baileys'
-import fs from 'fs'
+import fs from 'ar'
 import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
-import { promises } from 'fs'
+import { promises } from 'ar'
 import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
 const dispositivo = await getDevice(m.key.id)
