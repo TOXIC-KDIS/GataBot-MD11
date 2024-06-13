@@ -109,7 +109,7 @@ let menu = `
 ⊜ *هوايتك(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *الخبره ➟* ${exp} ⚡
 ⊜ *الماس ➟* ${limit} 💎
-⊜ *بوت لوسيفار ➟* ${money} 🐈
+⊜ *بوت كباس ➟* ${money} 🐈
 ⊜ *الرموز ➟* ${joincount} 🪙`.trim()
       
 const buttonParamsJson = JSON.stringify({
